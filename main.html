@@ -66,8 +66,10 @@
   <div class="container">
     <!-- Initial form -->
     <div id="player-form">
-      <input type="text" id="player-1" placeholder="Enter Player 1 name">
-      <input type="text" id="player-2" placeholder="Enter Player 2 name">
+      <input type="text" id="player1" placeholder="Enter Player 1 name">
+<input type="text" id="player2" placeholder="Enter Player 2 name">
+<button id="submit">Submit</button>
+
       <button id="submit">Submit</button>
     </div>
 
@@ -91,8 +93,9 @@
 
   <script>
     const submitBtn = document.getElementById("submit");
-    const player1Input = document.getElementById("player-1");
-    const player2Input = document.getElementById("player-2");
+  const player1Input = document.getElementById("player1");
+const player2Input = document.getElementById("player2");
+
     const form = document.getElementById("player-form");
     const game = document.getElementById("game");
     const messageDiv = document.querySelector(".message");
